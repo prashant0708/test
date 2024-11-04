@@ -1,0 +1,30 @@
+/* static/certificate.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: blue;
+}
+
+.certificate {
+  border: 5px solid #000;
+  padding: 30px;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+  font-style: italic;
+}

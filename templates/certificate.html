@@ -1,0 +1,23 @@
+<!-- templates/certificate.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Certificate</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='certificate.css')}}"
+    />
+  </head>
+  <body>
+    <div class="certificate">
+      <div class="title">Certificate of Completion</div>
+      <div class="content">
+        This is to certify that <strong>{{ name }}</strong><br />
+        has successfully completed the
+        <strong>{{ course }}</strong> Course from Besant Technologies <br />
+      </div>
+      <p>Congratulations!</p>
+    </div>
+  </body>
+</html>
